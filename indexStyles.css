@@ -1,0 +1,15 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+.wlcmContainer {
+  background-position: center; 
+  background-image: url(Imgs/welcome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+
+.specImg {
+  display: flex;
+  width: 10em;
+}
