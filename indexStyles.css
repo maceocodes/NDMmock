@@ -6,10 +6,19 @@ html, body { height: 100%; width: 100%; margin: 0; }
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 
+.specContainer {
+  background-position: center; 
+  background-image: url(Imgs/specials04juice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+
 .specImg {
-  display: flex;
-  width: 10em;
+  width: 7em;
 }
