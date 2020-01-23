@@ -9,34 +9,37 @@ html, body { height: 100%; width: 100%; margin: 0; }
   height: 75%;
 }
 
+/*specials and features section*/
+
 .specTitle{
-  /* margin-left: 2em; */
-  margin-top: .5em;
-  margin-bottom: -.2em;
-  /* margin: auto; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: .5em 0em -.3em .1em;
   font-size: 4.5em;
 }
 
 .specImg {
   position: absolute;
   /* left: 2em; */
-  margin: 0em 0em 0em 3.5em;
+  margin: 0em 0em 0em 9.5em;
   width: 9em;
   border: solid;
 }
 
 .specBG {
   background-color: green;
-  margin: 2.5em 0em;
-  width: 100%;
+  margin: 2em 0em 0em 1.5em;
+  width: 90%;
   height: 10em;
 }
 
-.specBG h2 {
+.specBG p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: .5em;
   color: white;
-  text-align:left;
-  margin: 0em 1em 0em 9em;
-  line-height:1.1em;
+  text-align: right;
+  margin: 1em 10em 0em 1em;
+  line-height: 1.2em;
+  font-size: 1.03em;
 
 }
 
