@@ -1,5 +1,5 @@
 html, body { height: 100%; width: 100%; margin: 0; }
-
+/*styles Welcome*/
 .wlcmContainer {
   background-position: center; 
   background-image: url(Imgs/welcome.jpg);
@@ -9,27 +9,27 @@ html, body { height: 100%; width: 100%; margin: 0; }
   height: 75%;
 }
 
-/*specials and features section*/
 
+/*Specials and features section-------------------------------------*/
 .specTitle{
   font-family: Arial, Helvetica, sans-serif;
   margin: .5em 0em -.3em .1em;
-  font-size: 4.5em;
+  font-size: 5.3em;
 }
 
 .specImg {
   position: absolute;
   /* left: 2em; */
-  margin: 0em 0em 0em 9.5em;
-  width: 9em;
-  border: solid;
+  margin: 0em 0em 0em 11em;
+  width: 45%;
+  
 }
 
 .specBG {
   background-color: green;
-  margin: 2em 0em 0em 1.5em;
+  margin: 2em 0em 0em 2.4em;
   width: 90%;
-  height: 10em;
+  height: 12em;
 }
 
 .specBG p {
@@ -37,9 +37,36 @@ html, body { height: 100%; width: 100%; margin: 0; }
   padding-top: .5em;
   color: white;
   text-align: right;
-  margin: 1em 10em 0em 1em;
+  margin: 1em 11.8em 0em 1.5em;
   line-height: 1.2em;
-  font-size: 1.03em;
-
+  font-size: 1.08em;
 }
 
+
+/* Community Styles -------------------------------------------------*/
+.communityImg {
+  width: 90%;
+}
+
+.communityTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1em 0em -.1em .07em;
+  font-size: 4.1em;
+}
+
+.communityDiv {
+  background-color: indigo;
+  width: 40%;
+  height: 16em;
+  position: absolute;
+  margin: 2em 0em 0em 1em;
+}
+
+.communityDiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.08em;
+  line-height: 1.2em;
+  color: white;
+  text-align: left;
+  margin: .5em 1em 1em .5em;
+}
