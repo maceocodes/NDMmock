@@ -1,4 +1,19 @@
 html, body { height: 100%; width: 100%; margin: 0; }
+/*menu styles*/
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.navbar{
+  background: rgba(0,0,0,0.4);
+}
+
+
+
+
+
 /*styles Welcome*/
 .wlcmContainer {
   background-position: center; 
