@@ -4,12 +4,29 @@
 <head>
   <title>Home</title>
   <meta charset="utf-8"> 
-  <link href="indexStyles.css" rel="stylesheet">
+  <link rel="stylesheet" href="indexStyles.css" >
+  <link rel="stylesheet" href="css\bootstrap.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 
 <body>
 <!-- MainNav-->
+
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
+
   <div class="mainNav">
     <a href="" class="menuIcon">X</a>
     <a href="" class="logo">Logo</a>
@@ -51,7 +68,7 @@
     <p>Lorem ipsum dolor sit amet, postea viderer in, mel.  Dolor sit amet</p>
   </div>
 
-  <h1 class=communityTitle>Community</h1>
+  <h1 class="communityTitle">Community</h1>
   <div class=communityDiv>
     <p>Lorem ipsum dolor sit amet, his ad omnis dicunt singulis. Sint probatus ei eam, no sea detraxit senserit.</p>
   </div>
@@ -59,6 +76,8 @@
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="js\bootstrap.js"></script>
 
 
 
