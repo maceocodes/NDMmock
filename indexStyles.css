@@ -3,19 +3,13 @@ html, body { height: 100%; width: 100%; margin: 0; }
 .navbar-brand {
   position: absolute;
   left: 50%;
+  top: .5em;
   transform: translateX(-50%)
 }
 
-.navbar{
-  background: rgba(0,0,0,0.4);
-}
-
-
-
-
 
 /*styles Welcome*/
-.wlcmContainer {
+.jumboTron {
   background-position: center; 
   background-image: url(Imgs/welcome.jpg);
   background-repeat: no-repeat;
@@ -23,7 +17,6 @@ html, body { height: 100%; width: 100%; margin: 0; }
   width: 100%;
   height: 75%;
 }
-
 
 /*Specials and features section-------------------------------------*/
 .specTitle{
