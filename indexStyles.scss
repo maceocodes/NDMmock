@@ -1,0 +1,205 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body { 
+  height: 100%; 
+  width: 100%; 
+  margin: 0; 
+  background-color: #38C1AD;
+}
+
+
+/*menu styles*/
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  top: .5em;
+  transform: translateX(-50%)
+}
+
+
+
+/*styles Welcome*/
+.jumboTron {
+  background-position: center; 
+  background-image: url(Imgs/welcome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75%;
+}
+
+/*Save section-------------------------------------*/
+/* .specImg {
+  position: absolute;
+  left: 2em;
+  margin: 0em 0em 0em 11em;
+  width: 45%;
+} */
+
+.specBG {
+  background-color: #38C1AD;
+  width: 100%;
+  height: 20em;
+  margin-top: 0em;
+}
+
+.specBG h1{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 4.5em;
+  font-weight: 510;
+  top: .30em;
+  color: #03725D;
+}
+
+// SaveCard
+.card {
+	vertical-align: top;
+	width: 250px;
+	display: inline-block;
+	margin: 1rem;
+	border-radius: 4px;
+	transition: all .2s ease;
+	background: transparent;
+	position: relative;
+	overflow: hidden;
+	
+	&:hover, &.hover {
+		transform: translateY(-4px);
+		box-shadow: 0 4px 25px 0 rgba(0,0,0,.3), 0 0 1px 0 rgba(0,0,0,.25);
+		
+		& .card-content {
+		}
+		
+		& .card-img .overlay {
+			background-color: rgba(251, 223, 210,.70);
+			transition: opacity .2s ease;
+			opacity: 1;
+		}
+	}
+	
+	&-img {
+		position: relative;
+		height: 224px;
+		width: 100%;
+		background-color: #fff;
+		transition: opacity .2s ease;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		& .overlay {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0;
+			
+			& .overlay-content {
+				line-height: 224px;
+				width: 100%;
+				text-align: center;
+				color: #fff;
+				
+				& a {
+					color: #03725D;
+					padding: 0 2rem;
+					display: inline-block;
+					height: 40px;
+					line-height: 40px;
+					border-radius: 20px;
+					cursor: pointer;
+					text-decoration: none;
+          font-size: 1.5em;
+          font-weight: 700;
+					
+					&:hover, &.hover {
+					}
+				}
+			}
+		}
+	}
+	
+	&-content {
+    width: 100%;
+    min-height: 104px;
+    background-color: transparent;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+		padding: 0.5rem 0.5rem;
+		transition: all .2s ease;
+		
+		& a {
+			text-decoration: none;
+			color: #FFF5F0;
+		}
+		
+		& h2, a h2 {
+			font-size: 2em;
+			font-weight: 500;
+			text-align: center;
+			margin-bottom: .09em;
+      margin-top: 0em;
+		}
+		
+		& p, a p {
+			margin-top: .05em;
+			margin-bottom: 0em;
+			color: #FFF5F0;
+      font-size: 1.5em;
+        
+		}
+		
+    & .oldPrice {
+			float: left;
+      clear: both;
+		}
+    
+		& .price {
+			float: left;
+      clear: both;
+      font-weight: 700;
+		}
+		
+		& .cart {
+			float: right;
+		}
+
+	}
+}
+
+
+/* Community Styles -------------------------------------------------*/
+/* .communityImg {
+  width: 90%;
+}
+
+.communityTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1em 0em -.1em .09em;
+  font-size: 4.3em;
+}
+
+.communityDiv {
+  background-color: indigo;
+  width: 40%;
+  height: 16em;
+  position: absolute;
+  margin: 2em 0em 0em 1em;
+}
+
+.communityDiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.08em;
+  line-height: 1.2em;
+  color: white;
+  text-align: left;
+  margin: .5em 1em 1em .5em;
+} */
+
+
