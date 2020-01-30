@@ -11,14 +11,16 @@ html, body {
 
 /*nav styles-------------------------------------------------*/
 .navbar {
-  background-color: #fffef0;
+  background-color: black;
 }
 
-// navlink color
+.collapse {
+  margin: 0em -1em -1em -1em;
+}
+
 .navbar-nav li a{
-  color: #015244;
-  font-weight: 600;
-  font-size: 3em;
+  color: #38C1AD;
+  font-size: 1.5em;
 }
 
 
